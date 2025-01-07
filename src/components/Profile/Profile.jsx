@@ -1,5 +1,5 @@
 import css from "./Profile.module.css";
-export const Profile = ({ avatar, username, tag, location, stats }) => {
+const Profile = ({ avatar, username, tag, location, stats }) => {
   return (
     <div className={css.profile}>
       <div className={css.description}>
@@ -27,3 +27,4 @@ export const Profile = ({ avatar, username, tag, location, stats }) => {
     </div>
   );
 };
+export default Profile;

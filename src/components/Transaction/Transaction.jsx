@@ -1,4 +1,4 @@
-export const Transaction = ({ type, amount, currency }) => {
+const Transaction = ({ type, amount, currency }) => {
   return (
     <tr>
       <td>{type}</td>
@@ -7,3 +7,4 @@ export const Transaction = ({ type, amount, currency }) => {
     </tr>
   );
 };
+export default Transaction;
